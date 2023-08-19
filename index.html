@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Navbar | Books and registration form</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="#" class="logo">Library System</a>
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="#Books">Books</a></li>
+      <li><a href="#">Register</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </nav>
+  <div class="main-content">
+    <div id="Books">
+      <h2 id = "bh2">Books</h2>
+      <table class = "main_table">
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genere</th>
+          <th>Availability</th>
+        </tr>
+        <!-- conten of 1st row -->
+        <tr>
+          <td>1</td>
+          <td>
+            <a href=""><b>Book Title1</b></a>
+            <table class = "child_table">
+
+                <tr>
+                  <td>Publication Date</td>
+                </tr>
+                <tr>
+                  <td> Page Count</td>
+                </tr>
+                <tr>
+                  <td>ISBN</td>
+                </tr>
+               
+              </table>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+              <a href=""><b>Book Title2</b></a>
+              <table class = "child_table">
+  
+                  <tr>
+                    <td>Publication Date</td>
+                  </tr>
+                  <tr>
+                    <td> Page Count</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN</td>
+                  </tr>
+                 
+                </table>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <a href=""><b>Book Title3</b></a>
+              <table class = "child_table">
+  
+                  <tr>
+                    <td>Publication Date</td>
+                  </tr>
+                  <tr>
+                    <td> Page Count</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN</td>
+                  </tr>
+                 
+                </table>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>
+              <a href=""><b>Book Title4</b></a>
+              <table class = "child_table">
+  
+                  <tr>
+                    <td>Publication Date</td>
+                  </tr>
+                  <tr>
+                    <td> Page Count</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN</td>
+                  </tr>
+                 
+                </table>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+      </table>
+    </div>
+
+    <div class="registration-form">
+        <h2>Register</h2>
+        <form>
+            <div class="input-container">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="input-container">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="input-container">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="5" max="100" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-container">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="submit-container">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
